@@ -46,7 +46,7 @@ def test_bubble_sort_n_more_than_or_equal_10():
 def test_bubble_sort_list_has_non_integers():
     result = []
     input_arr = [1, 2,"a", 4]
-
+    
     result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
 
     assert (result == 2)
